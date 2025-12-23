@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twin Heart Event Planner | Professional Event Management in Tamil Nadu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo1.png" alt="Twin Heart Event Logo">
+                <h2><i class="fas fa-heart"></i> Twin Heart Event</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact" class="btn-contact">Contact Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home" onclick="closeMobileMenu()">Home</a></li>
+            <li><a href="#services" onclick="closeMobileMenu()">Services</a></li>
+            <li><a href="#about" onclick="closeMobileMenu()">About Us</a></li>
+            <li><a href="#testimonials" onclick="closeMobileMenu()">Testimonials</a></li>
+            <li><a href="#partners" onclick="closeMobileMenu()">Partners</a></li>
+            <li><a href="#contact" onclick="closeMobileMenu()">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+    <div class="hero-bg">
+        <img src="img/events/ce5.jpg" alt="Event Background" class="active-bg">
+        <img src="img%20new%20background.jpg" alt="Event Background 2">
+    </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Your Happiness - Our Dream.!!!</h1>
+            <p>Welcome to Twin Heart Event Planner, Thoothukudi! From invitation to farewell (பத்திரிக்கை முதல் பந்தி வரை), we handle everything to make your special day perfect across Tamil Nadu.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Book Your Dates</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <p>No of Events</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                    <div class="stat-number" data-target="4">0</div>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-building"></i></div>
+                    <div class="stat-number" data-target="15">0</div>
+                    <p>Corporate Events</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-gopuram"></i></div>
+                    <div class="stat-number" data-target="30">0</div>
+                    <p>Traditional Events</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive event planning services at affordable prices across Tamil Nadu</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Wedding Events</h3>
+                    <p class="service-price">Rs.1.5L* Onwards</p>
+                    <p>We offer four different packages tailored to your requirements. Choose the package that suits your needs for your perfect day.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Surprise/Birthday</h3>
+                    <p class="service-price">Rs.7k* Onwards</p>
+                    <p>If you don't have a plan to celebrate your loved one's special moment, don't worry! Leave your worries to us.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Corporate Events</h3>
+                    <p class="service-price">Rs.50k* Onwards</p>
+                    <p>Apart from traditional events, we now handle corporate events as well, tailored to your requirements including award ceremonies.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Award Ceremony</h3>
+                    <p class="service-price">Custom Pricing</p>
+                    <p>Professional award ceremony planning with stage design, lighting, and seamless execution for corporate recognition events.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Entertainment</h3>
+                    <p class="service-price">Custom Pricing</p>
+                    <p>Complete entertainment solutions including music, dance, and fun activities to make your event memorable.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-catering"></i>
+                    </div>
+                    <h3>Catering Services</h3>
+                    <p class="service-price">Custom Pricing</p>
+                    <p>Delicious catering options with a variety of cuisines to satisfy all your guests' taste preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Gallery Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Recent Events</h2>
+                <p>A glimpse into the magical moments we've created across Tamil Nadu</p>
+            </div>
+            <div class="events-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="wedding">Weddings</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="birthday">Birthday</button>
+            </div>
+            <div class="events-grid">
+                <div class="event-card" data-category="wedding">
+                    <div class="event-image">
+                        <img src="img/events/11.jpg" alt="Wedding Event">
+                        <div class="event-overlay">
+                            <h3>Traditional Wedding</h3>
+                            <p>Thoothukudi, Tamil Nadu</p>
+                            <a href="#" class="event-link"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-category="corporate">
+                    <div class="event-image">
+                        <img src="img/events/ce2.jpg" alt="Corporate Event">
+                        <div class="event-overlay">
+                            <h3>Award Ceremony 2024</h3>
+                            <p>Madurai, Tamil Nadu</p>
+                            <a href="#" class="event-link"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-category="birthday">
+                    <div class="event-image">
+                        <img src="img/events/12.jpg" alt="Birthday Party">
+                        <div class="event-overlay">
+                            <h3>Surprise Birthday Bash</h3>
+                            <p>Tirunelveli, Tamil Nadu</p>
+                            <a href="#" class="event-link"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-category="wedding">
+                    <div class="event-image">
+                        <img src="img/events/14.jpg" alt="Wedding Reception">
+                        <div class="event-overlay">
+                            <h3>Temple Wedding</h3>
+                            <p>Rameswaram, Tamil Nadu</p>
+                            <a href="#" class="event-link"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-category="corporate">
+                    <div class="event-image">
+                        <img src="img/events/ce5.jpg" alt="Product Launch">
+                        <div class="event-overlay">
+                            <h3>Corporate Gala Dinner</h3>
+                            <p>Chennai, Tamil Nadu</p>
+                            <a href="#" class="event-link"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" data-category="birthday">
+                    <div class="event-image">
+                        <img src="img/events/15.jpg" alt="New Year Party">
+                        <div class="event-overlay">
+                            <h3>Kids Birthday Party</h3>
+                            <p>Pudukottai, Tamil Nadu</p>
+                            <a href="#" class="event-link"><i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://www.twinheartevent.in/img/th2.JPG" alt="About Twin Heart Event">
+                </div>
+                <div class="about-text">
+                    <h2>About Twin Heart Event</h2>
+                    <p class="subtitle">Your Happiness - Our Dream.!!!</p>
+                    <p>Welcome to Twin Heart Event Planner, based in Thoothukudi! We provide comprehensive event planning services across Tamil Nadu at affordable prices. From invitations to the final farewell ("பத்திரிக்கை முதல் பந்தி வரை"), we handle everything to make your special day perfect.</p>
+                    <p>With several years of experience under our belts, we have the skills and expertise to handle every aspect of event planning from venue selection to catering including lots of fun and entertainment. Our experienced team of professionals is dedicated to bringing your vision to life, whether it's a small, intimate gathering or a grand gala.</p>
+                    <p>We have successfully registered our firm under MSME. We have started our journey on May 26th, 2021 and founded by Ms. Abinaya A, MCA. Our team is spread across various locations to serve your events wherever they may be.</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>MSME Registered Firm</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Experienced Professionals</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Serving Across Tamil Nadu</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Affordable Pricing</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Book Your Dates</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Don't just take our word for it</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"Twin Heart Event made our wedding absolutely magical! They handled everything from decorations to catering perfectly. The team was very professional and affordable. Highly recommend!"</p>
+                        <div class="testimonial-author">
+                            <img src="img/testimonial_1.png" alt="Priya Rajan">
+                            <div class="author-info">
+                                <h4>Priya Rajan</h4>
+                                <p>Wedding Client</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"We organized our company's award ceremony through Twin Heart Event. The entire event was seamless and professional. Best event planners in Thoothukudi!"</p>
+                        <div class="testimonial-author">
+                            <img src="img/testimonial_4.png" alt="Karthik Suresh">
+                            <div class="author-info">
+                                <h4>Karthik Suresh</h4>
+                                <p>Business Owner</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p>"They planned a surprise birthday party for my daughter and it was beyond amazing! The decorations, cake, and entertainment were perfect. Thank you Twin Heart Event!"</p>
+                        <div class="testimonial-author">
+                            <img src="img/testimonial_5.png" alt="Lakshmi Devi">
+                            <div class="author-info">
+                                <h4>Lakshmi Devi</h4>
+                                <p>Birthday Party Client</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Dates With Us</h2>
+                <p>Let's create something amazing together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Location</h4>
+                            <p>Pudukottai, Thoothukudi, Tamil Nadu</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Phone</h4>
+                            <p>8220184674</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Email</h4>
+                            <p>twinheart.weddingplanner@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-details">
+                            <h4>Service Area</h4>
+                            <p>Across Tamil Nadu</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="location" name="location" placeholder="Location" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="eventType" name="eventType" required>
+                                <option value="">Select Event Type</option>
+                                <option value="wedding">Wedding Events</option>
+                                <option value="birthday">Surprise/Birthday</option>
+                                <option value="corporate">Corporate Events</option>
+                                <option value="award">Award Ceremony</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Book Your Dates</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Trusted Partners</h2>
+                <p>We are proud to work with these amazing partners</p>
+            </div>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <img src="img partners/alex.PNG" alt="Alex - Partner">
+                </div>
+                <div class="partner-card">
+                    <img src="img partners/david1.png" alt="David - Partner">
+                </div>
+                <div class="partner-card">
+                    <img src="img partners/fly1.png" alt="Fly - Partner">
+                </div>
+                <div class="partner-card">
+                    <img src="img partners/guhan.png" alt="Guhan - Partner">
+                </div>
+                <div class="partner-card">
+                    <img src="img partners/selvaraj.png" alt="Selvaraj - Partner">
+                </div>
+                <div class="partner-card">
+                    <img src="img partners/solomon.png" alt="Solomon - Partner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3><i class="fas fa-heart"></i> Twin Heart Event</h3>
+                    <p>Your Happiness - Our Dream.!!! Professional event planning services across Tamil Nadu at affordable prices.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Wedding Events</a></li>
+                        <li><a href="#services">Surprise/Birthday</a></li>
+                        <li><a href="#services">Corporate Events</a></li>
+                        <li><a href="#services">Award Ceremony</a></li>
+                        <li><a href="#services">Entertainment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Follow Us On</h4>
+                    <p>Connect with us on social media for updates and event inspiration.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright ©2025 Twin Heart Event Planner. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
